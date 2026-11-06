@@ -1,0 +1,207 @@
+{
+ "recovery": {
+  "K=2": {
+   "step_n": 60,
+   "step_rec": 0,
+   "step_med": null,
+   "ramp_n": 59,
+   "ramp_rec": 1,
+   "ramp_med": 14.545
+  },
+  "K=3": {
+   "step_n": 60,
+   "step_rec": 0,
+   "step_med": null,
+   "ramp_n": 52,
+   "ramp_rec": 0,
+   "ramp_med": null
+  },
+  "K=11": {
+   "step_n": 3,
+   "step_rec": 0,
+   "step_med": null,
+   "ramp_n": 7,
+   "ramp_rec": 0,
+   "ramp_med": null
+  },
+  "Invention K=2,Q=2": {
+   "step_n": 60,
+   "step_rec": 0,
+   "step_med": null,
+   "ramp_n": 45,
+   "ramp_rec": 0,
+   "ramp_med": null
+  },
+  "Invention K=2,Q=3": {
+   "step_n": 60,
+   "step_rec": 0,
+   "step_med": null,
+   "ramp_n": 25,
+   "ramp_rec": 0,
+   "ramp_med": null
+  },
+  "Invention + hyst + rev": {
+   "step_n": 60,
+   "step_rec": 0,
+   "step_med": null,
+   "ramp_n": 43,
+   "ramp_rec": 0,
+   "ramp_med": null
+  }
+ },
+ "outliers": {
+  "K=2": {
+   "det": 60,
+   "chance": 20,
+   "med": 2.545
+  },
+  "K=3": {
+   "det": 60,
+   "chance": 22,
+   "med": 4.545
+  },
+  "K=11": {
+   "det": 51,
+   "chance": 3,
+   "med": 20.545
+  },
+  "Invention K=2,Q=2": {
+   "det": 60,
+   "chance": 5,
+   "med": 4.545
+  },
+  "Invention K=2,Q=3": {
+   "det": 58,
+   "chance": 1,
+   "med": 5.545
+  },
+  "Invention + hyst + rev": {
+   "det": 60,
+   "chance": 6,
+   "med": 4.545
+  }
+ },
+ "ties": {
+  "older": {
+   "stable_fc": 8.183333333333334,
+   "flip": 4.133333333333334,
+   "step": 60,
+   "step_med": 4.545,
+   "ramp": 57,
+   "pulse": 0,
+   "windows": 30258,
+   "ties": 11437
+  },
+  "newer": {
+   "stable_fc": 8.416666666666666,
+   "flip": 4.266666666666667,
+   "step": 60,
+   "step_med": 4.545,
+   "ramp": 57,
+   "pulse": 0,
+   "windows": 30197,
+   "ties": 11506
+  }
+ },
+ "noise": {
+  "0.5|K=2": {
+   "stable_fc": 13.316666666666666,
+   "flip": 8.016666666666667,
+   "step": 60,
+   "step_chance": 5,
+   "step_med": 2.545,
+   "ramp": 60,
+   "ramp_chance": 11,
+   "pulse": 44,
+   "sav": 15.152777777777777
+  },
+  "0.5|K=3": {
+   "stable_fc": 10.133333333333333,
+   "flip": 5.183333333333334,
+   "step": 60,
+   "step_chance": 4,
+   "step_med": 4.545,
+   "ramp": 60,
+   "ramp_chance": 9,
+   "pulse": 45,
+   "sav": 14.145833333333332
+  },
+  "0.5|Invention K=2,Q=2": {
+   "stable_fc": 9.95,
+   "flip": 5.483333333333333,
+   "step": 60,
+   "step_chance": 4,
+   "step_med": 4.545,
+   "ramp": 60,
+   "ramp_chance": 3,
+   "pulse": 0,
+   "sav": 10.138888888888891
+  },
+  "1.0|K=2": {
+   "stable_fc": 11.45,
+   "flip": 6.55,
+   "step": 60,
+   "step_chance": 9,
+   "step_med": 2.545,
+   "ramp": 59,
+   "ramp_chance": 18,
+   "pulse": 44,
+   "sav": 15.715277777777779
+  },
+  "1.0|K=3": {
+   "stable_fc": 7.95,
+   "flip": 3.7,
+   "step": 60,
+   "step_chance": 13,
+   "step_med": 4.545,
+   "ramp": 59,
+   "ramp_chance": 12,
+   "pulse": 45,
+   "sav": 14.79861111111111
+  },
+  "1.0|Invention K=2,Q=2": {
+   "stable_fc": 8.183333333333334,
+   "flip": 4.133333333333334,
+   "step": 60,
+   "step_chance": 4,
+   "step_med": 4.545,
+   "ramp": 57,
+   "ramp_chance": 5,
+   "pulse": 0,
+   "sav": 11.319444444444445
+  },
+  "2.0|K=2": {
+   "stable_fc": 13.9,
+   "flip": 8.583333333333334,
+   "step": 53,
+   "step_chance": 10,
+   "step_med": 2.545,
+   "ramp": 49,
+   "ramp_chance": 15,
+   "pulse": 25,
+   "sav": 10.215277777777777
+  },
+  "2.0|K=3": {
+   "stable_fc": 9.1,
+   "flip": 4.316666666666666,
+   "step": 56,
+   "step_chance": 3,
+   "step_med": 6.545,
+   "ramp": 46,
+   "ramp_chance": 13,
+   "pulse": 27,
+   "sav": 10.000000000000002
+  },
+  "2.0|Invention K=2,Q=2": {
+   "stable_fc": 10.283333333333333,
+   "flip": 5.833333333333333,
+   "step": 54,
+   "step_chance": 2,
+   "step_med": 7.045,
+   "ramp": 30,
+   "ramp_chance": 5,
+   "pulse": 2,
+   "sav": 5.013888888888888
+  }
+ }
+}

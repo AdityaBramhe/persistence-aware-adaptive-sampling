@@ -1,0 +1,56 @@
+{
+ "recov": {
+  "worsening": {
+   "windows": 1685,
+   "unqualified": 1000
+  },
+  "recovery": {
+   "windows": 436,
+   "unqualified": 3
+  },
+  "recovery_nonS": {
+   "windows": 84,
+   "unqualified": 3
+  },
+  "same": {
+   "windows": 4736,
+   "unqualified": 932
+  }
+ },
+ "mixed": {
+  "worsening": {
+   "windows": 1936,
+   "unqualified": 1192
+  },
+  "recovery": {
+   "windows": 372,
+   "unqualified": 3
+  },
+  "recovery_nonS": {
+   "windows": 57,
+   "unqualified": 3
+  },
+  "same": {
+   "windows": 4462,
+   "unqualified": 835
+  }
+ },
+ "stable": {
+  "worsening": {
+   "windows": 1937,
+   "unqualified": 1292
+  },
+  "recovery": {
+   "windows": 548,
+   "unqualified": 4
+  },
+  "recovery_nonS": {
+   "windows": 76,
+   "unqualified": 4
+  },
+  "same": {
+   "windows": 5712,
+   "unqualified": 1086
+  }
+ }
+}
